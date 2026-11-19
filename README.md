@@ -77,7 +77,7 @@ Importante: Por políticas de seguridad de los navegadores y de EmailJS, el proy
 
 Clonar el repositorio:
 
-git clone https://github.com/TU-USUARIO/smart-parras.git
+git clone https://github.com/24040009-dev/SMART.git
 cd smart-parras
 
 
