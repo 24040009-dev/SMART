@@ -1,0 +1,139 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#eef2f6;
+}
+
+.header{
+background:#0d3b66;
+color:white;
+display:flex;
+align-items:center;
+padding:10px 20px;
+}
+
+.header .logo img{
+width:60px;
+margin-right:15px;
+}
+
+.header .titulo{
+font-size:22px;
+font-weight:bold;
+}
+
+.header span{
+color:#f4c542;
+}
+
+.contenedor{
+display:flex;
+padding:20px;
+}
+
+.faq{
+width:250px;
+background:white;
+padding:15px;
+border-radius:6px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+margin-right:20px;
+}
+
+.faq h3{
+margin-top:0;
+}
+
+.faq ul{
+padding-left:15px;
+}
+
+.faq li{
+margin-bottom:10px;
+font-size:14px;
+}
+
+.formulario{
+flex:1;
+background:white;
+padding:25px;
+border-radius:6px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+.formulario h2{
+text-align:center;
+margin-top:0;
+}
+
+.subtexto{
+text-align:center;
+font-size:14px;
+color:#555;
+}
+
+form{
+display:flex;
+flex-direction:column;
+}
+
+label{
+margin-top:15px;
+font-weight:bold;
+}
+
+input, select, textarea{
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+.captcha{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.imagen-captcha{
+background:#eee;
+padding:10px 20px;
+border:1px solid #ccc;
+font-family:monospace;
+}
+
+button{
+margin-top:20px;
+padding:15px;
+background:#1e73be;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#155a96;
+}
+
+footer{
+text-align:center;
+padding:15px;
+margin-top:20px;
+font-size:13px;
+color:#666;
+}
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    .faq {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .header .titulo {
+        font-size: 16px;
+    }
+}
