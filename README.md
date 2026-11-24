@@ -78,15 +78,9 @@ Importante: Por políticas de seguridad de los navegadores y de EmailJS, el proy
 Clonar el repositorio:
 
 git clone https://github.com/24040009-dev/SMART.git
-cd smart-parras
 
+cd Smart
 
-Configurar credenciales de EmailJS:
-Abre app.js y reemplaza las claves de configuración con las de tu cuenta de EmailJS:
-
-emailjs.init("TU_PUBLIC_KEY");
-const SERVICE_ID = "TU_SERVICE_ID";
-const TEMPLATE_ID = "TU_TEMPLATE_ID";
 
 
 Levantar servidor local:
